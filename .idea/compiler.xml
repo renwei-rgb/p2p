@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jeesite-module-test" />
+        <module name="jeesite-web" />
+        <module name="jeesite-module-app" />
+        <module name="jeesite-module-static" />
+        <module name="jeesite-web-mini" />
+        <module name="jeesite-web-api" />
+        <module name="jeesite-web-fast" />
+        <module name="jeesite-web-ai" />
+        <module name="jeesite-module-core" />
+        <module name="jeesite-module-cms-ai" />
+        <module name="jeesite-common" />
+        <module name="jeesite-module-cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jeesite" target="1.5" />
+      <module name="jeesite-common" target="17" />
+      <module name="jeesite-module-app" target="17" />
+      <module name="jeesite-module-cms" target="17" />
+      <module name="jeesite-module-cms-ai" target="17" />
+      <module name="jeesite-module-core" target="17" />
+      <module name="jeesite-module-static" target="17" />
+      <module name="jeesite-module-test" target="17" />
+      <module name="jeesite-modules" target="1.5" />
+      <module name="jeesite-parent" target="17" />
+      <module name="jeesite-root" target="1.5" />
+      <module name="jeesite-web" target="17" />
+      <module name="jeesite-web-ai" target="17" />
+      <module name="jeesite-web-api" target="17" />
+      <module name="jeesite-web-fast" target="17" />
+      <module name="jeesite-web-mini" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jeesite-common" options="-parameters" />
+      <module name="jeesite-module-app" options="-parameters" />
+      <module name="jeesite-module-cms" options="-parameters" />
+      <module name="jeesite-module-cms-ai" options="-parameters" />
+      <module name="jeesite-module-core" options="-parameters" />
+      <module name="jeesite-module-static" options="-parameters" />
+      <module name="jeesite-module-test" options="-parameters" />
+      <module name="jeesite-web" options="-parameters" />
+      <module name="jeesite-web-ai" options="-parameters" />
+      <module name="jeesite-web-api" options="-parameters" />
+      <module name="jeesite-web-fast" options="-parameters" />
+      <module name="jeesite-web-mini" options="-parameters" />
+    </option>
+  </component>
+</project>

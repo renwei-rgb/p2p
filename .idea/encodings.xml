@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/jeesite4/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/cms-ai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/cms-ai/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/cms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/static/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/static/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/modules/test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-ai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-ai/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-fast/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-fast/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-mini/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web-mini/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jeesite4/web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/jeesite.iml" filepath="$PROJECT_DIR$/jeesite4/jeesite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/common/jeesite-common.iml" filepath="$PROJECT_DIR$/jeesite4/common/jeesite-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/app/jeesite-module-app.iml" filepath="$PROJECT_DIR$/jeesite4/modules/app/jeesite-module-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/cms/jeesite-module-cms.iml" filepath="$PROJECT_DIR$/jeesite4/modules/cms/jeesite-module-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/cms-ai/jeesite-module-cms-ai.iml" filepath="$PROJECT_DIR$/jeesite4/modules/cms-ai/jeesite-module-cms-ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/core/jeesite-module-core.iml" filepath="$PROJECT_DIR$/jeesite4/modules/core/jeesite-module-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/static/jeesite-module-static.iml" filepath="$PROJECT_DIR$/jeesite4/modules/static/jeesite-module-static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/test/jeesite-module-test.iml" filepath="$PROJECT_DIR$/jeesite4/modules/test/jeesite-module-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/modules/jeesite-modules.iml" filepath="$PROJECT_DIR$/jeesite4/modules/jeesite-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/parent/jeesite-parent.iml" filepath="$PROJECT_DIR$/jeesite4/parent/jeesite-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/root/jeesite-root.iml" filepath="$PROJECT_DIR$/jeesite4/root/jeesite-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/web/jeesite-web.iml" filepath="$PROJECT_DIR$/jeesite4/web/jeesite-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/web-ai/jeesite-web-ai.iml" filepath="$PROJECT_DIR$/jeesite4/web-ai/jeesite-web-ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/web-api/jeesite-web-api.iml" filepath="$PROJECT_DIR$/jeesite4/web-api/jeesite-web-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/web-fast/jeesite-web-fast.iml" filepath="$PROJECT_DIR$/jeesite4/web-fast/jeesite-web-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeesite4/web-mini/jeesite-web-mini.iml" filepath="$PROJECT_DIR$/jeesite4/web-mini/jeesite-web-mini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tss-finance-web.iml" filepath="$PROJECT_DIR$/.idea/tss-finance-web.iml" />
+    </modules>
+  </component>
+</project>
