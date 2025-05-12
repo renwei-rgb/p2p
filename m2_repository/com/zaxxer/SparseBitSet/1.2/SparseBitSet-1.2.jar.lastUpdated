@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri May 02 00:31:42 JST 2025
+@default-jeesite-repos-https\://maven.jeesite.net/repository/maven-public/.lastUpdated=1746113492393
+https\://repo.maven.apache.org/maven2/.lastUpdated=1746113502677
+@default-aliyun-repos-https\://maven.aliyun.com/repository/public/.lastUpdated=1746113490199
+https\://maven.jeesite.net/repository/maven-public/.error=Could not transfer artifact com.zaxxer\:SparseBitSet\:jar\:1.2 from/to jeesite-repos (https\://maven.jeesite.net/repository/maven-public)\: status code\: 401, reason phrase\: Unauthorized (401)
+https\://maven.aliyun.com/repository/public/.error=Could not transfer artifact com.zaxxer\:SparseBitSet\:jar\:1.2 from/to aliyun-repos (https\://maven.aliyun.com/repository/public)\: Permission denied\: connect

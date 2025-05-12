@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri May 02 00:31:42 JST 2025
+@default-jeesite-repos-https\://maven.jeesite.net/repository/maven-public/.lastUpdated=1746113492413
+https\://repo.maven.apache.org/maven2/.lastUpdated=1746113502716
+@default-aliyun-repos-https\://maven.aliyun.com/repository/public/.lastUpdated=1746113490222
+https\://maven.jeesite.net/repository/maven-public/.error=Could not transfer artifact ch.qos.logback\:logback-classic\:jar\:1.5.12 from/to jeesite-repos (https\://maven.jeesite.net/repository/maven-public)\: status code\: 401, reason phrase\: Unauthorized (401)
+https\://maven.aliyun.com/repository/public/.error=Could not transfer artifact ch.qos.logback\:logback-classic\:jar\:1.5.12 from/to aliyun-repos (https\://maven.aliyun.com/repository/public)\: Permission denied\: connect

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>fury-parent</artifactId>
+    <groupId>org.apache.fury</groupId>
+    <version>0.9.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>fury-core</artifactId>
+  <description>Apache Fury™ is a blazingly fast multi-language serialization framework powered by jit and zero-copy.
+
+    Apache Fury (incubating) is an effort undergoing incubation at the Apache
+    Software Foundation (ASF), sponsored by the Apache Incubator PMC.
+
+    Incubation is required of all newly accepted projects until a further review
+    indicates that the infrastructure, communications, and decision making process
+    have stabilized in a manner consistent with other successful ASF projects.
+
+    While incubation status is not necessarily a reflection of the completeness
+    or stability of the code, it does indicate that the project has yet to be
+    fully endorsed by the ASF.</description>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Automatic-Module-Name>org.apache.fury.core</Automatic-Module-Name>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <minimizeJar>true</minimizeJar>
+              <artifactSet>
+                <includes>
+                  <include>org.codehaus.janino</include>
+                </includes>
+              </artifactSet>
+              <relocations>
+                <relocation>
+                  <pattern>org.codehaus</pattern>
+                  <shadedPattern>org.apache.fury.shaded.org.codehaus</shadedPattern>
+                </relocation>
+              </relocations>
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>META-INF/*.SF</exclude>
+                    <exclude>META-INF/*.DSA</exclude>
+                    <exclude>META-INF/*.RSA</exclude>
+                    <exclude>META-INF/**/janino/*</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.12</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>32.1.2-jre</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.fury</groupId>
+      <artifactId>fury-test-core</artifactId>
+      <version>0.9.0</version>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>testng</artifactId>
+          <groupId>org.testng</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>lombok</artifactId>
+          <groupId>org.projectlombok</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>maven-jdk-tools-wrapper</artifactId>
+          <groupId>com.github.olivergondza</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>commons-lang3</artifactId>
+          <groupId>org.apache.commons</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kryo</artifactId>
+          <groupId>com.esotericsoftware</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>reflectasm</artifactId>
+          <groupId>com.esotericsoftware</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>minlog</artifactId>
+          <groupId>com.esotericsoftware.minlog</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>fst</artifactId>
+          <groupId>de.ruedigermoeller</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>log4j-api</artifactId>
+          <groupId>org.apache.logging.log4j</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>log4j-core</artifactId>
+          <groupId>org.apache.logging.log4j</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>log4j-slf4j2-impl</artifactId>
+          <groupId>org.apache.logging.log4j</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <properties>
+    <fury.java.rootdir>${basedir}/..</fury.java.rootdir>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
+</project>
